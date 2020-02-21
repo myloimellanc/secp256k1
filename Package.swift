@@ -5,11 +5,11 @@ import PackageDescription
 let package = Package(
     name: "Secp256k1",
     products: [
-        .library(name: "Secp256k1", targets: ["secp256k1"]),
+        .library(name: "Secp256k1", targets: ["Secp256k1"]),
     ],
     targets: [
         .target(
-            name: "secp256k1",
+            name: "Secp256k1",
             path: ".",
             sources: ["src/secp256k1.c"],
             publicHeadersPath: "include",
