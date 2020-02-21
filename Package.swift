@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Secp256k1",
+    name: "SSecp256k1",
     products: [
-        .library(name: "Secp256k1", targets: ["Secp256k1"]),
+        .library(name: "SSecp256k1", targets: ["SSecp256k1"]),
     ],
     targets: [
         .target(
-            name: "Secp256k1",
+            name: "SSecp256k1",
             path: ".",
             sources: ["src/secp256k1.c"],
             publicHeadersPath: "include",
