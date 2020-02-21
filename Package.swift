@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "secp256k1",
     products: [
-        .library(name: "secp256k1", targets: ["secp256k1"]),
+        .library(name: "Secp256k1", targets: ["secp256k1"]),
     ],
     targets: [
         .target(
